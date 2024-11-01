@@ -2,26 +2,27 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     container: {
-        paddingBottom: 85,
+        paddingBottom: 70,
     },
     header: {
         flexDirection: 'row',
-        justifyContent: 'center',
-        alignItems: 'center',
         paddingVertical: 20,
         paddingHorizontal: 30,
-        gap: 15,
+        justifyContent: 'space-between',
+        alignItems: 'center'
     },
-    input: {
-        backgroundColor: '#E5E8EF',
-        padding: 10,
-        borderRadius: 25,
-        width: '82%',
+    titulo: {
+        fontSize: 16,
+        fontWeight: 'bold',
     },
     botao: {
-        backgroundColor: '#fff',
-        padding: 10,
-        borderRadius: 15,
+        backgroundColor: '#4cc66e',
+        paddingHorizontal: 10,
+        paddingVertical: 5,
+        borderRadius: 5,
+    },
+    texto: {
+        color: '#fff',
     },
     receita: {
         flexDirection: 'row',
